@@ -1,0 +1,23 @@
+name: Update Space Shooter Game
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 每天 UTC 0点（北京时间早上8点）自动刷新
+  workflow_dispatch:       # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update-game:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 2   # 官方强调必须加，否则下面的"避免仓库膨胀"功能失效
+
+      - uses: czl9707/gh-space-shooter@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}   # 自动注入，不用自己建
+          output-path: 'game.gif'                     # 生成的文件名
+          strategy: 'random'                          # 攻击模式: column/row/random
