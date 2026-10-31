@@ -42,11 +42,3 @@ keeping per-token thinking blocks intact — then traced the international build
 channel rejection to the session header family, and repaired the Clippy gate that was
 turning every PR red.
 
----
-
-
----
-
-<div align="center">
-<sub>mostly C#, TypeScript and Rust · always shipping something</sub>
-</div>
