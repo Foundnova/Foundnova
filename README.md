@@ -1,17 +1,67 @@
-## Welcome to my homepage
-I'm just a nobody, using AI to do the things I love, and it would be even better if I could contribute my part to the community along the way.
-I will only pin projects that I've made sufficient contributions to, provided they're worth recommending.
-<!--
-**Foundnova/Foundnova** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+### Welcome to my homepage
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# lxl
+
+**Making the tools I actually use — with AI as my collaborator.**
+
+<sub><i>I'm just a nobody, doing the things I love. It would be even better if a piece of it could help the community along the way.</i></sub>
+
+<br /><br />
+
+![Focus](https://img.shields.io/badge/focus-Windows%20tools%20%26%20browser%20extensions-4C6EF5?style=flat-square)
+![Method](https://img.shields.io/badge/method-AI--assisted%20engineering-7048E8?style=flat-square)
+![Upstream](https://img.shields.io/badge/merged%20upstream-10%20PRs-12B886?style=flat-square)
+
+</div>
+
+---
+
+## Selected work
+
+Projects I've put real work into — and would recommend.
+
+### [StarPie](https://github.com/Star-Pie/StarPie) <sub>`C#` · 1.3k ★ · contributor</sub>
+
+A modern radial mouse-gesture system for Windows.
+
+I rebuilt the OCR rescue path so tiny selections and dark terminals get recognised
+instead of coming back as tiled garbage; made the keyboard trigger a true passthrough
+that fully restores native input on a tap; added icon inheritance for launch actions;
+fixed layout regressions in the settings window; and restored the GUI test suite after
+the v1.6.8 UI overhaul.
+
+### [WorkBuddy / TraeWork switch](https://github.com/NextAgentX/qoder-trae-workbuddy-switch) <sub>`Rust` · 269 ★ · contributor</sub>
+
+A Tauri desktop app for switching between the domestic and international WorkBuddy /
+TraeWork accounts, with points-expiry monitoring and check-in.
+
+I fixed the streaming path — stopping the thinking snapshot from flooding the stream and
+keeping per-token thinking blocks intact — then traced the international build's 11-128
+channel rejection to the session header family, and repaired the Clippy gate that was
+turning every PR red.
+
+### [DeepSeek Sidebar](https://github.com/Foundnova/ds-sidepanel) <sub>`JavaScript` · MIT · author</sub>
+
+A Chrome/Edge MV3 extension that puts the real DeepSeek web app in the browser side panel,
+scoped to the tab you clicked from.
+
+The hard part was never the panel — it was making `sidePanel.open()` survive Chrome's user
+gesture check, and getting past `frame-ancestors 'none'` with a DNR rule while keeping the
+`chrome-extension://` origin that the page's `sessionStorage` depends on. Verified with
+83/83 checks in Chrome and 18/18 in a real Edge install, not by eyeballing it.
+
+---
+
+## A note on what gets pinned
+
+I only pin work I've genuinely contributed to, and only when I think it's worth
+recommending. Everything else stays unpinned — a short list is a more honest signal
+than a long one.
+
+---
+
+<div align="center">
+<sub>93 contributions in the past year · mostly C#, TypeScript and Rust · always shipping something</sub>
+</div>
