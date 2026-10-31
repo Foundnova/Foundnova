@@ -4,8 +4,6 @@
 
 # lxl
 
-**Making the tools I actually use — with AI as my collaborator.**
-
 <sub><i>I'm just a nobody, doing the things I love. It would be even better if a piece of it could help the community along the way.</i></sub>
 
 ---
