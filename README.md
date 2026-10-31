@@ -14,8 +14,8 @@
 
 Projects I've put real work into — and would recommend.
 
-### [StarPie](https://github.com/Star-Pie/StarPie) <sub>`C#` · 1.3k ★ · contributor</sub>
+### [StarPie](https://github.com/Star-Pie/StarPie) <sub>`C#` · contributor</sub>
 
-### [WorkBuddy / TraeWork switch](https://github.com/NextAgentX/qoder-trae-workbuddy-switch) <sub>`Rust` · 269 ★ · contributor</sub>
+### [WorkBuddy / TraeWork switch](https://github.com/NextAgentX/qoder-trae-workbuddy-switch) <sub>`Rust` · contributor</sub>
 
 
