@@ -42,23 +42,8 @@ keeping per-token thinking blocks intact — then traced the international build
 channel rejection to the session header family, and repaired the Clippy gate that was
 turning every PR red.
 
-### [DeepSeek Sidebar](https://github.com/Foundnova/ds-sidepanel) <sub>`JavaScript` · MIT · author</sub>
-
-A Chrome/Edge MV3 extension that puts the real DeepSeek web app in the browser side panel,
-scoped to the tab you clicked from.
-
-The hard part was never the panel — it was making `sidePanel.open()` survive Chrome's user
-gesture check, and getting past `frame-ancestors 'none'` with a DNR rule while keeping the
-`chrome-extension://` origin that the page's `sessionStorage` depends on. Verified with
-83/83 checks in Chrome and 18/18 in a real Edge install, not by eyeballing it.
-
 ---
 
-## A note on what gets pinned
-
-I only pin work I've genuinely contributed to, and only when I think it's worth
-recommending. Everything else stays unpinned — a short list is a more honest signal
-than a long one.
 
 ---
 
