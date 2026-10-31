@@ -1,5 +1,5 @@
 ## Welcome to my homepage
-"I'm just a nobody, using AI to do the things I love, and it would be even better if I could contribute my part to the community along the way."
+I'm just a nobody, using AI to do the things I love, and it would be even better if I could contribute my part to the community along the way.
 <!--
 **Foundnova/Foundnova** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
