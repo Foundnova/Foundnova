@@ -1,6 +1,6 @@
 <div align="center">
 
-### Welcome to my homepage
+<p><sub>Welcome to my homepage</sub></p>
 
 # lxl
 
@@ -63,5 +63,5 @@ than a long one.
 ---
 
 <div align="center">
-<sub>93 contributions in the past year · mostly C#, TypeScript and Rust · always shipping something</sub>
+<sub>mostly C#, TypeScript and Rust · always shipping something</sub>
 </div>
